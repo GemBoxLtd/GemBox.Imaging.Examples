@@ -1,6 +1,8 @@
 ## What is GemBox.Imaging?
 
-GemBox.Imaging is a .NET component that provides an easy way to load, edit, save image files (png, jpeg, git, tiff). GemBox.Imaging also supports file format conversions and image transformations (resize, crop, rotate and flip).
+GemBox.Imaging is a .NET component that enables you to read, convert, and transform image files (PNG, JPEG, and GIF) from .NET applications.
+
+With GemBox.Imaging you get a fast and reliable component that's easy to use and doesn't depend on Microsoft Windows GDI. It requires only .NET so you can deploy your applications on any platform.
 
 ## GemBox.Imaging Features
 
@@ -12,7 +14,7 @@ GemBox.Imaging is a .NET component that provides an easy way to load, edit, save
 
 You are not sure how to start working with images in .NET using GemBox.Imaging? Check the code below that shows how to change image file format.
 
-```CSharp
+```csharp
 // If using Professional version, put your serial key below.
 ComponentInfo.SetLicense("FREE-LIMITED-KEY");
 
@@ -23,7 +25,6 @@ using (var image = Image.Load("SampleImage.png"))
 ```
 
 For more GemBox.Imaging code examples and demos, please visit our [examples page](https://www.gemboxsoftware.com/imaging/examples/c-sharp-vb-net-imaging-library/101).
- 
 
 ## Installation
 
@@ -31,10 +32,9 @@ You can download GemBox.Imaging from [BugFixes 🛠️](https://www.gemboxsoftwa
 
 ## Support
 
-* [Product Overview](https://www.gemboxsoftware.com/imaging)
-* [Documentation](https://www.gemboxsoftware.com/imaging/docs/introduction.html)
-* [API Reference](https://www.gemboxsoftware.com/imaging/docs/introduction.html)
-* [Contact Us](https://support.gemboxsoftware.com/new-ticket?ticket%5Bdepartment%5D=1&ticket%5Bproduct%5D=4)
-* [Forum](https://forum.gemboxsoftware.com/c/gembox-imaging/6)
-* [Blog](https://www.gemboxsoftware.com/gembox-imaging)
-* [Examples](https://www.gemboxsoftware.com/imaging/examples/)
+- [Product Page](https://www.gemboxsoftware.com/imaging)
+- [Examples](https://www.gemboxsoftware.com/imaging/examples)
+- [Documentation](https://www.gemboxsoftware.com/imaging/docs/introduction.html)
+- [API Reference](https://www.gemboxsoftware.com/imaging/docs/GemBox.Imaging.html)
+- [Forum](https://forum.gemboxsoftware.com/c/gembox-imaging/12)
+- [Blog](https://www.gemboxsoftware.com/gembox-imaging)
