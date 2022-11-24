@@ -30,7 +30,7 @@ For more GemBox.Imaging code examples and demos, please visit our [examples page
 
 You can download GemBox.Imaging from [BugFixes 🛠️](https://www.gemboxsoftware.com/imaging/downloads/bugfixes.html) or from [NuGet 📦](https://www.nuget.org/packages/GemBox.Imaging/).
 
-## Support
+## Resources
 
 - [Product Page](https://www.gemboxsoftware.com/imaging)
 - [Examples](https://www.gemboxsoftware.com/imaging/examples)
