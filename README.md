@@ -28,7 +28,7 @@ For more GemBox.Imaging code examples and demos, please visit our [examples page
 
 ## Installation
 
-You can download GemBox.Imaging from [BugFixes 🛠️](https://www.gemboxsoftware.com/imaging/downloads/bugfixes.html) or from [NuGet 📦](https://www.nuget.org/packages/GemBox.Imaging/).
+You can download GemBox.Imaging from [NuGet 📦](https://www.nuget.org/packages/GemBox.Imaging/) or from [BugFixes 🛠️](https://www.gemboxsoftware.com/imaging/downloads/bugfixes.html).
 
 ## Resources
 
