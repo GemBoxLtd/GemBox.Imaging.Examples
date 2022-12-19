@@ -1,14 +1,14 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net7.0</TargetFramework>
     <RemoveIntegerChecks>true</RemoveIntegerChecks>
     <RootNamespace />
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="GemBox.Imaging" Version="10.0.1000" />
+    <PackageReference Include="GemBox.Imaging" Version="*" />
   </ItemGroup>
 
   <ItemGroup>

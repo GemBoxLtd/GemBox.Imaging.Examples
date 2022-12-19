@@ -1,10 +1,10 @@
-﻿Imports GemBox.Imaging
+Imports GemBox.Imaging
 
 Module Program
 
 	Sub Main()
 
-		' If using Professional version, put your serial key below.
+		' If using the Professional version, put your serial key below.
 		ComponentInfo.SetLicense("FREE-LIMITED-KEY")
 
 		Using image As Image = Image.Load("Parrot.png")

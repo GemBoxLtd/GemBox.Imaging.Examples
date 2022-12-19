@@ -1,9 +1,9 @@
-﻿Imports GemBox.Imaging
+Imports GemBox.Imaging
 Imports System
 
 Module Program
     Sub Main()
-        ' If using Professional version, put your serial key below.
+        ' If using the Professional version, put your serial key below.
         ComponentInfo.SetLicense("FREE-LIMITED-KEY")
 
         Console.Title = "Reading Image Properties - GemBox.Imaging"
