@@ -1,5 +1,5 @@
-﻿using GemBox.Imaging;
-using System;
+﻿using System;
+using GemBox.Imaging;
 
 class Program
 {
