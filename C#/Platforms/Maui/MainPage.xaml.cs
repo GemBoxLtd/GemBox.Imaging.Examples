@@ -21,8 +21,7 @@ namespace ImagingMaui
             base.OnAppearing();
 
             if (imageData == null)
-                using (var client = new WebClient())
-                    this.imageData = client.DownloadData("https://dev.gemboxsoftware.com/imaging/examples/101/resources/FragonardReader.jpg");
+                GetDefaultImage();
 
             this.sourceImage.Source = ImageSource.FromStream(() => new MemoryStream(this.imageData));
         }
@@ -30,7 +29,7 @@ namespace ImagingMaui
         private async void GetDefaultImage()
         {
             using var ms = new MemoryStream();
-            using (var stream = await FileSystem.OpenAppPackageFileAsync("FragonardReader.jpg"))
+            using (var stream = await FileSystem.OpenAppPackageFileAsync("fragonard_reader.jpg"))
                 stream.CopyTo(ms);
             ms.Position = 0;
             this.imageData = ms.ToArray();

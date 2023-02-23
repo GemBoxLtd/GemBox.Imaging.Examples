@@ -49,18 +49,6 @@
     </ItemGroup>
 
     <ItemGroup>
-      <MauiAsset Remove="Resources\Raw\FragonardReader.jpg" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <None Remove="Resources\Raw\FragonardReader.jpg" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <AndroidResource Include="Resources\Images\FragonardReader.jpg" />
-    </ItemGroup>
-
-    <ItemGroup>
       <PackageReference Include="GemBox.Imaging" Version="*" />
       <PackageReference Include="SkiaSharp" Version="*" />
     </ItemGroup>
