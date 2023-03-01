@@ -1,6 +1,5 @@
 ﻿using GemBox.Imaging;
 using ImagingMaui.Models;
-using System.Net;
 
 namespace ImagingMaui
 {
@@ -54,7 +53,7 @@ namespace ImagingMaui
 
             try
             {
-                var filePath = RotateImage(new MemoryStream(this.imageData));
+                var filePath = await Task.Run(() => RotateImage(new MemoryStream(this.imageData)));
                 await Launcher.OpenAsync(new OpenFileRequest(Path.GetFileName(filePath), new ReadOnlyFile(filePath)));
             }
             catch (Exception ex)
