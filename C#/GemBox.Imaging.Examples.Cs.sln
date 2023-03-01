@@ -37,7 +37,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImagingXamarin.iOS", "Platf
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Converting", "Common Uses\Converting\Converting.csproj", "{FFDE73BA-7FAA-43C0-BF06-342199CF4283}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImagingMaui", "Platforms\Maui\ImagingMaui.csproj", "{728928EE-E00B-4B26-8B90-62BCDFD0683F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImagingMaui", "Platforms\MAUI\ImagingMaui.csproj", "{728928EE-E00B-4B26-8B90-62BCDFD0683F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
