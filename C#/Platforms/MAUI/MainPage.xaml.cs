@@ -20,17 +20,17 @@ namespace ImagingMaui
             base.OnAppearing();
 
             if (imageData == null)
-                GetDefaultImage();
+                GetDefaultImageAsync().Wait();
 
             this.sourceImage.Source = ImageSource.FromStream(() => new MemoryStream(this.imageData));
         }
 
-        private async void GetDefaultImage()
+        private async Task GetDefaultImageAsync()
         {
             using var ms = new MemoryStream();
             using (var stream = await FileSystem.OpenAppPackageFileAsync("fragonard_reader.jpg"))
-                stream.CopyTo(ms);
-            ms.Position = 0;
+                await stream.CopyToAsync(ms);
+
             this.imageData = ms.ToArray();
         }
 
