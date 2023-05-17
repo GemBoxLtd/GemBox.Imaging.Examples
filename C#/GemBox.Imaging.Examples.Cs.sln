@@ -25,7 +25,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cropping", "Transformation\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Resizing", "Transformation\Resizing\Resizing.csproj", "{96921AF0-94DD-4A4F-8802-5FA98262E103}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RotatingFlipping", "Transformation\RotatingFlipping\RotatingFlipping.csproj", "{BBC52F97-0848-436F-800F-E9BA90975123}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RotatingFlipping", "Transformation\Rotating Flipping\RotatingFlipping.csproj", "{BBC52F97-0848-436F-800F-E9BA90975123}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImagingDocker", "Platforms\Docker\ImagingDocker.csproj", "{C6F804EE-FCA6-45B5-A70F-B860251A009A}"
 EndProject
