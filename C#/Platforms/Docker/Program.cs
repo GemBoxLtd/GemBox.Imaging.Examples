@@ -9,7 +9,7 @@ class Program
 
         using (var image = Image.Load("FragonardReader.jpg"))
         {
-            // Display image information
+            // Display image information.
             Console.WriteLine($"Image size: {image.Width}x{image.Height}");
         }
     }

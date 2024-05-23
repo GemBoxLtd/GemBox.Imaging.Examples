@@ -1,0 +1,41 @@
+﻿@using ImagingCoreMvc.Models;
+@model ResizeImageModel
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GemBox.Imaging in ASP.NET Core MVC application</title>
+    <link rel="icon" href="~/favicon.ico" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <header>
+        <nav class="navbar border-bottom box-shadow mb-3">
+            <div class="container">
+                <a class="navbar-brand" asp-controller="Home" asp-action="Index">Home</a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <main class="pb-3 row">
+            <h1 class="display-4 p-3">Image resizer [Razor View]</h1>
+            <div class="col-lg-6">
+                <form asp-action="Download" enctype="multipart/form-data">
+                    <div class="form-group">Image: <input asp-for="Image" class="form-control" /></div>
+                    <div class="form-group">Width: <input asp-for="Width" class="form-control" /></div>
+                    <div class="form-group">Height: <input asp-for="Height" class="form-control" /></div>
+                    <div class="form-group"><input type="submit" value="Resize" class="btn btn-primary" /></div>
+                </form>
+            </div>
+        </main>
+    </div>
+
+    <footer class="footer border-top text-muted">
+        <div class="container">&copy; GemBox Ltd. — All rights reserved.</div>
+    </footer>
+</body>
+</html>
