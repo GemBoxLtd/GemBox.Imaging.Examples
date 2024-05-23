@@ -1,7 +1,7 @@
+Imports GemBox.Imaging
 Imports System
 Imports System.IO
 Imports System.Linq
-Imports GemBox.Imaging
 
 Module Program
     Sub Main()

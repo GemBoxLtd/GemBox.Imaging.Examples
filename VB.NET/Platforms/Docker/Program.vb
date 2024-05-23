@@ -1,5 +1,5 @@
-﻿Imports System
 Imports GemBox.Imaging
+Imports System
 
 Module Program
 
