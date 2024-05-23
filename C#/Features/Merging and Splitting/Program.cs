@@ -1,7 +1,7 @@
+using GemBox.Imaging;
 using System;
 using System.IO;
 using System.Linq;
-using GemBox.Imaging;
 
 class Program
 {
