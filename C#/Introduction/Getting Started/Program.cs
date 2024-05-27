@@ -13,7 +13,7 @@ class Program
             image.Resize(64, 64);
 
             // Saving the resized image.
-            image.Save("FragonardReader.png");
+            image.Save("HelloWorld.png");
         }
     }
 }

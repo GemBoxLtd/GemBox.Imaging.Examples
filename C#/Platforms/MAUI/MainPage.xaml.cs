@@ -1,5 +1,8 @@
 ﻿using GemBox.Imaging;
 using ImagingMaui.Models;
+using System;
+using System.IO;
+using System.Threading.Tasks;
 
 namespace ImagingMaui
 {

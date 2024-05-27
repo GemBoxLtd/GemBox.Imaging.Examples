@@ -7,7 +7,7 @@ Module Program
         ' If using the Professional version, put your serial key below.
         ComponentInfo.SetLicense("FREE-LIMITED-KEY")
 
-        Using image As Image = image.Load("parrot.png")
+        Using image As Image = Image.Load("parrot.png")
             ' Adjust blue channel and contrast of the image.
             image.ApplyFilter(
                 Function(x) x _

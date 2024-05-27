@@ -11,7 +11,7 @@ class Program
         var imagePath = "deer.jpg";
         using (var image = Image.Load(imagePath))
         {
-            // Display image information
+            // Display image information.
             Console.WriteLine($"Image path: {imagePath}");
             Console.WriteLine($"Image size: {image.Width}x{image.Height}");
             Console.WriteLine($"Image resolution: {image.DpiX}x{image.DpiY}");
