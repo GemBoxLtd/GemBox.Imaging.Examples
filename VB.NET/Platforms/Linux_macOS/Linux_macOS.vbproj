@@ -7,7 +7,6 @@
 
   <ItemGroup>
     <PackageReference Include="GemBox.Imaging" Version="*" />
-    <PackageReference Include="SkiaSharp.NativeAssets.Linux" Version="*" />
   </ItemGroup>
 
   <ItemGroup>
