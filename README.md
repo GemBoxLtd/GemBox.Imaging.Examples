@@ -1,8 +1,8 @@
 ## What is GemBox.Imaging?
 
-GemBox.Imaging is a .NET component that enables you to read, convert, and transform image files (PNG, JPEG, and GIF) from .NET applications.
+GemBox.Imaging is a .NET library that enables you to read, convert, and transform image files (PNG, JPEG, and GIF) from .NET applications.
 
-With GemBox.Imaging you get a fast and reliable component that's easy to use and doesn't depend on Microsoft Windows GDI. It requires only .NET so you can deploy your applications on any platform.
+With GemBox.Imaging you get a fast and reliable library that's easy to use and doesn't depend on Microsoft Windows GDI. It requires only .NET so you can deploy your applications on any platform.
 
 ## GemBox.Imaging Features
 
