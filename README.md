@@ -1,3 +1,5 @@
+[![GemBox.Imaging .NET Imaging library](https://www.gemboxsoftware.com/img/banners/gembox-gbi-banner.png)](https://www.gemboxsoftware.com/imaging/examples/getting-started/101)
+
 ## What is GemBox.Imaging?
 
 GemBox.Imaging is a .NET library that enables you to read, convert, and transform image files (PNG, JPEG, and GIF) from .NET applications.
@@ -34,7 +36,7 @@ For more GemBox.Imaging code examples and demos, please visit our [examples page
 
 ## Installation
 
-You can download GemBox.Imaging from [NuGet 📦](https://www.nuget.org/packages/GemBox.Imaging/) or from [Downloads 🛠️](https://www.gemboxsoftware.com/imaging/downloads/).
+You can download GemBox.Imaging from [NuGet 📦](https://www.nuget.org/packages/GemBox.Imaging/) or from [Downloads 🛠️](https://www.gemboxsoftware.com/imaging/free-version).
 
 ## AI Coding
 
